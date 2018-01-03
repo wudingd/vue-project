@@ -50,7 +50,7 @@
                            this.lunbotuList = result.body.message;
                     }else{
                     
-                        Toast("加载轮播图失败1112222……")
+                        Toast("加载轮播图失败……")
                     } 
                     
                 })
