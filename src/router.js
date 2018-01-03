@@ -5,6 +5,7 @@ import SearchContainer from './components/tabbar/SearchContainer.vue'
 import ShopcarContainer from './components/tabbar/ShopcarContainer.vue'
 import MemberContainer from './components/tabbar/MemberContainer.vue'
 
+
 var router= new VueRouter({
   routes:[
     
