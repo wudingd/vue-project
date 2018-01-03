@@ -8,23 +8,23 @@
          <ul class="mui-table-view mui-grid-view mui-grid-9">
 		           
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-location"></span>
-		                    <div class="mui-media-body">location</div></a></li>
+		                    <img src="../../images/menu1.png" alt="">
+		                    <div class="mui-media-body">新闻资讯</div></a></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-search"></span>
-		                    <div class="mui-media-body">Search</div></a></li>
+		                     <img src="../../images/menu2.png" alt="">
+		                    <div class="mui-media-body">图片分享</div></a></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-phone"></span>
-		                    <div class="mui-media-body">Phone</div></a></li>
+		                     <img src="../../images/menu3.png" alt="">
+		                    <div class="mui-media-body">商品购买</div></a></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-gear"></span>
-		                    <div class="mui-media-body">Setting</div></a></li>
+		                     <img src="../../images/menu4.png" alt="">
+		                    <div class="mui-media-body">留言反馈</div></a></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-info"></span>
-		                    <div class="mui-media-body">about</div></a></li>
+		                     <img src="../../images/menu5.png" alt="">
+		                    <div class="mui-media-body">视频专区</div></a></li>
 		           <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-more"></span>
-		                    <div class="mui-media-body">more</div></a></li>
+		                    <img src="../../images/menu6.png" alt="">
+		                    <div class="mui-media-body">联系我们</div></a></li>
 		        </ul> 
     </div>
     
@@ -82,5 +82,21 @@
             height: 100%;
         }
     }
+    .mui-grid-view.mui-grid-9 {
+        background-color: #fff;
+        border: none;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .mui-media-body{
+            font-size: 13px;
+        }
+    }
+    .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+        border: 0;
+    }
+
     
 </style>
